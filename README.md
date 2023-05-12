@@ -45,6 +45,9 @@ PASSWORD=Hillsidenn69ph!
 OPENAIKEY=1234
 # Frequency of posts (Hours)
 FREQUENCY=24
+# Tags for generating posts
+POSTTAGS = tech AI ML
+
 
 ```
 2. Install dependencies
