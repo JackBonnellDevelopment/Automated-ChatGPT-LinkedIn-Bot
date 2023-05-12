@@ -47,7 +47,7 @@ class ChatGPTLinkedInDriver:
         postelement.click()
         WebDriverWait(self.driver, 10).until(expected_conditions.presence_of_element_located((By.CLASS_NAME, "ql-editor")))
         textelement = self.driver.find_element(By.CLASS_NAME, "ql-editor")
-        textelement.send_keys("Automated post by Jack Bonnell")
+        textelement.send_keys(self.GeneratePost())
         textelement.send_keys(Keys.RETURN)
         buttonelement = self.driver.find_element(By.CLASS_NAME, "share-actions__primary-action")
         buttonelement.click()

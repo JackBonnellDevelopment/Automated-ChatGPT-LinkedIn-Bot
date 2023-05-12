@@ -6,7 +6,68 @@ An automated LinkedIn Bot that uses ChatGPT to Post Content related Chosen Conte
 </p>
 
 ****
+ ## Background
 
-## Step Up
+ This bot uses Selenium and ChatGPT to automate the proccess of creating and posting LinkedIn Content. This repository is loosely based of a tutorial on automating linkedIn Posts by [ijachipius8](https://ijachipius8.medium.com/automate-linkedin-posts-with-selenium-and-python-f209e276d3c2).
 
 
+
+ The code is very basic and uses python. More complete documentation and code will be added as more features are implemented and the ChatGPTLinkedInDriver is moved out of Main.py
+
+****
+
+Prerequisite
+
+- Python3
+- OpenAI
+- Selenium
+- Chrome
+
+****
+
+## Set Up
+
+1. Create an .env file in the root of the repository as shown:
+
+```
+# LinkedIn User Credentials
+USERNAME=jack.bonnell@hotmail.co.uk
+PASSWORD=Hillsidenn69ph!
+# OPEN AI API KEY
+OPENAIKEY=1234
+# Frequency of posts (Hours)
+FREQUENCY=24
+
+```
+2. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+## Usage
+
+-  Run the script
+
+    ```
+    Python main.py
+    ```
+
+- Example Output
+
+<img src="https://github.com/JackBonnellDevelopment/Automated-ChatGPT-LinkedIn-Bot/assets/22745183/58764efd-65ba-4cec-83ea-13dd47d154df" height= 50% width = 50%/>
+
+****
+
+## Contribute
+
+PRs are welcome! If you're looking for something to do, maybe take a look at the Issues?
+
+If updating the README, please stick to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+
+****
+
+## License
+
+MIT
