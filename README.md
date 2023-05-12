@@ -8,15 +8,23 @@ An automated LinkedIn Bot that uses ChatGPT to Post Content related Chosen Conte
 ****
  ## Background
 
- This bot uses Selenium and ChatGPT to automate the proccess of creating and posting LinkedIn Content. This repository is loosely based of a tutorial on automating linkedIn Posts by [ijachipius8](https://ijachipius8.medium.com/automate-linkedin-posts-with-selenium-and-python-f209e276d3c2).
+ This bot uses Selenium and ChatGPT to automate the proccess of creating and posting LinkedIn Content. This repository is loosely based of a tutorial on automating linkedIn posts by [ijachipius8](https://ijachipius8.medium.com/automate-linkedin-posts-with-selenium-and-python-f209e276d3c2).
 
 
 
  The code is very basic and uses python. More complete documentation and code will be added as more features are implemented and the ChatGPTLinkedInDriver is moved out of Main.py
 
 ****
+## Table of Contents
 
-Prerequisite
+- [Prerequisites](https://github.com/JackBonnellDevelopment/Automated-ChatGPT-LinkedIn-Bot#Prerequisites)
+- [Set Up](https://github.com/JackBonnellDevelopment/Automated-ChatGPT-LinkedIn-Bot#set-up)
+- [Usage](https://github.com/JackBonnellDevelopment/Automated-ChatGPT-LinkedIn-Bot#usage)
+- [Contribute](https://github.com/JackBonnellDevelopment/Automated-ChatGPT-LinkedIn-Bot#contribute)
+- [License](https://github.com/JackBonnellDevelopment/Automated-ChatGPT-LinkedIn-Bot#license)
+****
+
+## Prerequisites
 
 - Python3
 - OpenAI
@@ -45,6 +53,8 @@ FREQUENCY=24
 pip install -r requirements.txt
 ```
 
+****
+
 ## Usage
 
 -  Run the script
@@ -54,8 +64,9 @@ pip install -r requirements.txt
     ```
 
 - Example Output
-
+<p align="center">
 <img src="https://github.com/JackBonnellDevelopment/Automated-ChatGPT-LinkedIn-Bot/assets/22745183/58764efd-65ba-4cec-83ea-13dd47d154df" height= 50% width = 50%/>
+</p>
 
 ****
 
@@ -64,10 +75,7 @@ pip install -r requirements.txt
 PRs are welcome! If you're looking for something to do, maybe take a look at the Issues?
 
 If updating the README, please stick to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
-
 ****
-
 ## License
 
 MIT
